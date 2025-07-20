@@ -14,8 +14,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #0e1823;
-  color: #040306;
+  background-color: #98a3ae;
+  color: #3b393d;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -26,10 +26,10 @@ a,
 button,
 svg,
 input,
-input::placeholder  {
+input::placeholder {
   transition-duration: 250ms;
-  transition-property: color, fill, background-color, border, box-shadow, visibility,
-    opacity;
+  transition-property: color, fill, background-color, border, box-shadow,
+    visibility, opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
