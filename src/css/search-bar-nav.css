@@ -52,7 +52,7 @@ button {
 .tabs {
   display: flex;
   text-align: center;
-  gap: 2px;
+  gap: 1px;
   justify-content: space-between;
 }
 
