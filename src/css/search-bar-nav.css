@@ -2,12 +2,16 @@ button {
   padding: 0px;
 }
 
+.search-bar-nav {
+  padding: 10px 0px;
+}
+
 .container-search-bar-nav {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  padding: 0px;
-  background-color: rgb(34, 33, 31);
+  padding: 0px 10px;
+  /* background-color: rgb(34, 33, 31); */
 }
 
 .search-bar {
@@ -19,23 +23,26 @@ button {
 }
 
 .searchInput {
-  min-height: 46px;
+  min-height: 44px;
   background-color: rgb(51, 53, 54) !important;
   border: none;
+  border-radius: 3px;
 }
 
 .search-btn {
   display: flex;
-  padding: 12px 8px;
+  padding: 13px 3px;
   background-color: rgb(51, 53, 54) !important;
   border: none;
+  border-radius: 3px;
 }
 
 .theme-toggle {
   min-height: 42px;
-  padding: 0 10px;
+  padding: 13px 11px;
   background-color: rgb(51, 53, 54) !important;
   border: none;
+  border-radius: 3px;
 }
 
 .main-nav {
@@ -45,8 +52,9 @@ button {
 }
 
 .main-nav-button {
-  padding: 9px;
+  padding: 7px;
   background-color: rgb(88, 89, 90);
+  border-radius: 3px;
 }
 
 .tabs {
@@ -60,6 +68,7 @@ button {
   padding: 9px;
   width: 50%;
   background-color: rgb(88, 89, 90);
+  border-radius: 3px;
 }
 
 .searchInput {
