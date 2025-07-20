@@ -13,7 +13,8 @@ p:last-child {
 }
 
 ul,
-ol {
+ol,
+button {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -29,6 +30,7 @@ button {
   font-family: inherit;
   color: currentColor;
   cursor: pointer;
+  padding: 0px;
 }
 
 img {
