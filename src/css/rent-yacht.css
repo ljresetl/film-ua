@@ -1,0 +1,140 @@
+.rent-yacht-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rent-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rent-yacht-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.form-input {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding: 14px 0 14px 18px;
+    min-width: 100%;
+    background: #0e1823;
+    outline: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #fbfbfb;
+    margin-bottom: 18px;
+}
+
+.form-textarea {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding: 14px 0 14px 18px;
+    min-width: 100%;
+    height: 108px;
+    background: #0e1823;
+    outline: none;
+    resize: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #fbfbfb;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.form-textarea:focus-within,
+.form-textarea:hover,
+.form-input:focus-within,
+.form-input:hover {
+    border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: rgba(251, 251, 251, 0.4);
+}
+
+.form-btn {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    border-radius: 15px;
+    padding: 14px 44px;
+    background-color: #1b414b;
+    border: none;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+}
+
+.rent-img {
+    border-radius: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .rent-yacht-container {
+        gap: 100px;
+    }
+    .rent-wrap {
+        max-width: 472px;
+        gap: 50px;
+    }
+    .rent-yacht-title {
+        font-size: 48px;
+    }
+    .form-input {
+        padding: 18px 0 18px 18px;
+        font-size: 14px;
+        line-height: 1.28;
+    }
+    .form-textarea {
+        margin-bottom: 50px;
+        font-size: 14px;
+        line-height: 1.28;
+        padding: 18px;
+    }
+    .form-input::placeholder,
+    .form-textarea::placeholder {
+        font-size: 14px;
+        line-height: 1.28;
+    }
+    .form-btn {
+        max-width: none;
+        font-size: 18px;
+        line-height: 1.1;
+        padding: 18px 75px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .rent-yacht-container {
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+    .rent-yacht-container {
+        display: flex;
+        gap: 50px;
+    }
+    .form-textarea {
+        height: 116px;
+    }
+}
